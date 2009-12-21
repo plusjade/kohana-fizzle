@@ -1,0 +1,20 @@
+
+#showroom_toggle li{margin-bottom:5px;}
+#showroom_toggle li a.selected,
+#showroom_toggle li a:hover{
+	color:#fff;
+	background:purple url('/_assets/images/admin/gradients.jpg') repeat-x 0px -415px !important; /*purple*/	
+}
+#showroom_toggle li a {
+	display:block;
+	padding:5px 10px;
+	background:#eee;
+	color:blue;
+	text-decoration:none;
+}
+
+#images .gallery img {
+border:1px solid #ccc;
+margin:3px;
+padding:3px;
+}

@@ -1,0 +1,207 @@
+
+#forum_navigation_wrapper{
+	width:230px;
+	float:left;
+	min-height:300px;
+border-right: 1px solid #d4d4d4;
+background: #f8f8f8;
+padding: 15px; 
+}
+.forum-note{
+width:500px;
+margin:0 auto; 
+margin-bottom:20px;
+padding:8px;
+background:#ffffcc;
+text-align:center;
+
+}
+#forum_content_wrapper{
+	width:650px;
+	float:right;
+	min-height:300px;
+}
+#forum_navigation_wrapper h3{
+font-size:1.3em; font-weight:bold;
+margin-bottom:5px;
+}
+
+#submit_new{
+	display:block;
+	padding:8px 12px;
+	background: #52bbe2; 
+	margin-bottom:10px;
+	text-align:center;
+color:#fff;
+}
+#submit_new:hover{
+	background: orange; 
+}
+#breadcrumb_wrapper{
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#breadcrumb_wrapper a{
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+/* common tab list for sorting links */
+ul.sort_list{
+	clear:both;
+	list-style:none;
+	padding:10px 0;
+	margin:10px 0;
+	border-bottom:1px solid #999;
+	text-align:right;
+}
+ul.sort_list li{
+	display:inline;
+}
+ul.sort_list li a{
+	padding:10px 15px;
+	font-weight:bold;
+	background:#eee;
+}
+ul.sort_list li a:hover,
+ul.sort_list li a.selected{
+	position:relative;
+	background:#fff;
+	border:1px solid #999;
+	border-bottom:1px solid #fff;
+}
+
+/* list_items styles for both post and comment lists. */
+
+.each_post_wrapper,
+.each_comment_wrapper{
+	clear:both;
+	overflow:auto;
+	margin-bottom:10px;
+}
+
+.votes,
+.comments{
+	width:50px;
+	height:50px;
+	float:left;
+	margin-right:5px;
+	padding:5px;
+	background:#ccc;
+	text-align:center;
+}
+.votes span,
+.comments span{
+	font-size:1.4em;
+}
+.title {
+	margin-bottom:8px;
+}
+.title a{
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-size:1.2em;
+	font-weight:bold;
+}
+.title a:hover{
+	background:#ffffcc;
+}
+.summary{
+	width:70%;
+	float:left;
+	padding:5px;
+	border-bottom:1px dashed #ccc;
+}
+.summary a.preview{
+	float:right;
+	font-size:0.8em;
+}
+.summary span{ /* time wrapper */
+	margin-top:5px;
+	display:block;
+	font-size:0.9em;
+	color:#333;
+}
+.summary span em{
+	background:#ffffcc;
+}
+.comment_meta div{
+	clear:right;
+	float:right;
+	padding:5px;
+	margin-bottom:10px;
+	text-align:right;
+	background:#eee;
+}
+.owner_actions{
+	float:right;	
+	background:#ffffcc;
+	text-align:right;
+}
+
+/* post list item stufff */ 
+.forum_posts_list_wrapper .post_comment{
+	padding:10px;
+	margin-bottom:10px;
+	background:lightblue;
+}
+
+/* comment list item stufff */ 
+.forum_comments_list_wrapper{
+
+}
+.each_comment_wrapper{
+	border-bottom:1px dashed #ccc;
+}
+
+.comment_body{
+	width:83%;
+	float:right;
+	padding:10px;
+}
+
+
+/* the main Post/Comment at the top when viewing a singular Post page */
+
+#main_post{
+
+}
+#main_post .comment_body{
+	background:#eee;
+	border:1px dashed #ccc;
+	margin-bottom:10px;
+}
+
+/* submit form */
+
+fieldset {
+margin-bottom:10px;
+border:0;
+}
+#forum_submit_item fieldset label {
+font-weight:bold;
+}
+form fieldset input {
+	padding: 5px; 
+	font-size: 1.2em; 
+	color: #222222;
+	border: 1px solid #cecece;
+}
+form fieldset textarea {
+	width: 99%; 
+	height: 115px; 
+	border: 1px solid #d7d7d7; 
+	padding: 5px; 
+
+}
+form button {
+	background: #52bbe2; 
+	margin: 10px 0;
+	font-weight: bold; 
+	font-size: 1.4em; 
+	color: #fff; 
+	padding:5px 10px;
+	border:0; 
+}
+button:hover {
+background: orange; cursor: pointer;
+}

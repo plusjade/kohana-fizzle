@@ -1,0 +1,49 @@
+
+-----------  Kohana Fizzle  -----------
+	It's a forum to tha izzle, sucka.
+
+--
+
+	Kohana fizzle, or maybe kfizzle, is a proof-of-concept
+	forum for the kohana php framework.
+
+--
+	
+	DEMO: http://demo.plusjade.com/forum
+
+--	
+	
+	 Highlights:
+	 
+	 -- Plug and Play Kohana Module.
+	 -- Users can vote up/down posts and comments.
+	 -- Sort by newest, active, and votes.
+	 -- Nearly 100% ajaxable but maintains 100% degradability.
+	 -- Nearly 100% unobtrusive.
+	 -- Super Concise. Just look at that nice forum class.
+	 
+--
+	 
+	 Philosophy:
+		 Forums are about data first. Give users efficient
+		 tools to handle data - everything else is secondary.
+	 
+--
+	 
+	 Goals:
+		-- Focus on the data/content.
+		-- Stay modern, without bloat - (I'm looking at you phpbb).
+
+--
+
+	CAUTION: 
+	
+	As of 12/21/09 this is a non-complete prototype only.
+	The intention is to get it out and get some feedback.
+	I shall keep you updated!
+	
+		
+		
+		
+		
+		
